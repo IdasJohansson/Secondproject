@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Contact </title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css"/> 
+</head>
+
+<body>
+    <header> 
+        <nav id="navigationMenu"> 
+            <p>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </p>
+        </nav>
+        <h1> Feel free to leave a message </h1>
+    </header>
+
+    <section>
+
+        <div class="startDiv"> 
+            -
+                    </div>
+
+        <div class="leftDiv">
+
+            <div class="myForms">
+                <form>
+            <h2 id="formHeadline">CONTACT ME </h2>
+            <ol>
+                <li> Choose a topic, enter your name, email and write a message: <br/>
+               
+                        <label for="dropdown"> Topic: </label>
+                        
+                        <select name="dropdown">
+                            <option>Question</option>
+                            <option>Feedback</option>
+                            <option>Message</option>
+                        </select><br />
+            
+                        <div class="input-container">
+                            <input type="text" placeholder="First name" name="firstName"/><br/>
+                        </div>
+                        <div class="input-container">   
+                        <input type="text" placeholder="Last name" name="lastName"/>
+                    </div>
+                
+                    <div class="input-container">
+                    <input type="email" placeholder="Email" name="emailAdress"/>
+                    </div>
+
+                    <div class="input-container">
+                        <textarea placeholder="Write your message here..." name="message" rows="5">Write your message here...</textarea> 
+                    </div>
+                </li>
+                <li> <p>Choose your mood:</p>
+                            <input type="checkbox" name="checkbox1"/>Happy
+                            <input type="checkbox" name="checkbox2"/>Amused<br />
+                            <input type="checkbox" name="checkbox3"/>Exited
+                            <input type="checkbox" name="checkbox4"/>Joyful<br />
+                            <br/>
+    
+                </li>
+    
+                <li> <p>Rate this webpage:</p> 
+                    <!--Måste ha samma name för att funktionen att man bara ska kunna välja ett värde ska fungera-->
+                              
+                                <input type="radio" name="radio"/>1 
+                                <input type="radio" name="radio"/>2
+                                <input type="radio" name="radio"/>3
+                                <input type="radio" name="radio"/>4
+                                <input type="radio" name="radio"/>5
+                                 <br />
+                                <br/>
+
+                            <button id="submitbtn" type="submit">Send message</button>
+
+                </li>
+            </ol>
+        </form>
+    </div>
+        </div>
+        <div class="rightDiv"> 
+
+            <div class="previousNext">
+
+           <!--Om jag vill ha previous & next som text i stället-->
+           <!-- <a href="about.html" class="previous">&laquo; Previous</a> -->     
+            <a id="leftArrow" href="about.html">
+                <img src = ./img/leftarrow..png
+                alt = "Left arrow"
+                width="30"
+                height="30"
+                />
+            </a>
+
+            <a id="githubImage" href ="https://github.com/IdasJohansson" target="_blank">
+                <img src = ./img/Githublogo.png
+                alt = "GitHub logo"
+                width = "30"
+                height = "30"
+                />
+            </a>
+            
+            <a id="linkedinImage" href ="https://www.linkedin.com/in/ida-s-johansson/" target="_blank">
+                <img src = ./img/Linkedinlogo.png
+                alt = "LinkedIn logo"
+                width = "30"
+                height = "30"
+                />
+            </a>
+        </div>
+           
+        </div>
+    </section>
+    
+    <footer><p>  © 2022 Copyright</p> </footer>
+</body>
+
+</html>

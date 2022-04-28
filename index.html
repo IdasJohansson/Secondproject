@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> My first webpage </title>
+    <!-- Länkar till CSS-styling dokumentet-->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css"/> 
+</head>
+
+<body>
+
+
+    <header> 
+        <nav id="navigationMenu"> 
+            <p>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </p>
+        </nav>
+        <h1> Hi! Welcome </h1>
+    </header>
+
+    <section>
+        <div class="startDiv"> 
+               -
+        </div>
+
+        <div class="leftDiv">
+            <img id="selfPortrait" src=./img/profilePicture.png alt = "Selfportrait"> 
+            
+            <table id="uglyTable">
+                <tr>
+                    <th colspan="2"> Assignment Webbapplications</th> <!--Specat att denna rubriken ska sträcka sig över flera kolumner -->
+                </tr>
+                <tr class="tableRow">
+                    <td>Student:</td> 
+                    <td>Ida Johansson</td> 
+               
+                </tr>
+                <tr>
+                    <td>Date:</td> 
+                    <td>20220501</td> 
+                </tr>
+                <tr class="tableRow">
+                    <td>School:</td> 
+                    <td>NBI/Handelsakademin</td> 
+                </tr>
+                <tr>
+                    <td>Class:</td> 
+                    <td>SOS21</td> 
+                </tr>
+            </table>
+
+            
+
+
+        </div>
+        
+
+
+        <div class="rightDiv">
+            
+            <div class="previousNext">
+
+                <!--Om jag vill ha previous & next som text i stället-->
+                <!--<a href="about.html" class="next">Next &raquo;</a> -->
+                
+                <a id="rightArrow" href="about.html">
+                    <img src = ./img/rightarrow.jpeg
+                    alt = "Right arrow"
+                    width="30"
+                    height="30"
+                    />
+                </a>
+                
+                <a id="githubImage" href ="https://github.com/IdasJohansson" target="_blank">
+                    <img src = ./img/Githublogo.png
+                    alt = "GitHub logo"
+                    
+                    />
+                </a>
+                
+                <a id="linkedinImage" href ="https://www.linkedin.com/in/ida-s-johansson/" target="_blank">
+                    <img src = ./img/Linkedinlogo.png
+                    alt = "LinkedIn logo"
+                    width = "30"
+                    height = "30"
+                    />
+                </a>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer><p> © 2022 Copyright</p> </footer>
+</body>
+
+</html>
